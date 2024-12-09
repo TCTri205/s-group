@@ -1,0 +1,11 @@
+p {
+    color : pink;
+    font-size: 20px;
+}
+
+body {
+    background-color: yellowgreen;
+    opacity: 0.7;
+}
+
+p.solid {border-style: solid;}
