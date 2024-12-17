@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-body {
+.body-1 {
     width: 85%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 35px;
-    margin-bottom: 35px;
 }
+
 
 .thanh-ngang {
     position: sticky;
@@ -22,6 +22,8 @@ body {
     padding-top: 45px;
     padding-bottom: 1px;
     margin-bottom: 50px;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
 }
 
 .width-auto-1\/2 {
@@ -129,11 +131,9 @@ body {
     display: inline-block;
 }
 
-.end_ {
+.body-2{
+    width: 100%;
     background-color: black;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     text-align: center;
     padding: 120px 0;
 }
