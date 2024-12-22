@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .circle {
+        position: absolute;
+        z-index: 2;
+        border-radius: 50%;
+        border: 1px solid red;
+        background-color: yellow;
+        padding: 50px;
+        animation-name: move;
+        animation-duration: 10s;
+      }
+
+      @keyframes move {
+        0% {
+          left: 0px;
+          top: 0px;
+        }
+        25% {
+          left: 94.6%;
+          top: 0px;
+        }
+        50% {
+          left: 94.6%;
+          top: 88.5%;
+        }
+        75% {
+          left: 0px;
+          top: 88.5%;
+        }
+        100% {
+          left: 0px;
+          top: 0px;
+        }
+      }
+
+      .loading {
+        position: absolute;
+        height: 52px;
+        width: 52px;
+        left: 47%;
+        top: 47%;
+        z-index: 0;
+        border-radius: 50%;
+        border-left: 2px solid black;
+        animation-name: load;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+
+      @keyframes load {
+         0% {
+          rotate: 0deg;
+         }
+         100% {
+          rotate: 360deg;
+         }
+      }
+    </style>
+  </head>
+  <body>
+      <div class="circle"></div>
+      <div></div>
+      <div class="loading"></div>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            text-align: center;
+        }
+
+        .container {
+            position: relative;
+            overflow: hidden;
+            width: 350px;
+            height: 350px;
+        }
+
+        .img1 {
+            width: 400px;
+            height: 350px;
+            position: relative;
+            left: -15px;
+            z-index: 1;
+            transition: all 2s ease;
+        }
+
+        .img2 {
+            width: 350px;
+            height: 400px;
+            position: relative;
+            top: -15px;
+            z-index: 1;
+            transition: all 2s ease;
+        }
+
+        .text-block1 {
+            position: absolute;
+            padding: 30px;
+            align-content: end;
+            text-align: left;
+            z-index: 999;
+            color: white;
+            font-size: 25px;
+            bottom: 0px;
+            transition: all 2s ease;
+        }
+
+        .text-block2 {
+            position: absolute;
+            padding: 30px;
+            align-content: end;
+            text-align: left;
+            z-index: 999;
+            color: white;
+            font-size: 25px;
+            bottom: 45px;
+            left: 35px;
+            transition: all 2s ease;
+        }
+
+        .hide-text {
+            font-size: 15px;
+            color: white;
+            opacity: 0;
+            transition: all 1.5s ease;    
+        }
+
+        .container:hover .img1 {
+            left: 0;
+        }
+
+        .container:hover .img2 {
+            top: 0;
+        }
+
+        .container:hover .hide-text {
+            opacity: 1;
+        }
+
+        .container:hover .text-block1 {
+            bottom: 45px;
+        }
+
+        .container:hover .text-block2 {
+            bottom: 45px;
+            left: 0px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="img1" src="https://tympanus.net/Development/HoverEffectIdeas/img/12.jpg" alt="">
+        <div class="text-block1">
+            <div style="margin-bottom: 10px;">
+                <span>NICE</span>
+                <b>LILY</b>
+            </div>
+            <div class="hide-text">
+                LILY LIKES TO PLAY WITH CRAYONS AND PENCILS
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="margin-top: 50px;">
+        <img class="img2" src="https://tympanus.net/Development/HoverEffectIdeas/img/1.jpg" alt="">
+        <div class="text-block2">
+            <div style="margin-bottom: 10px;">
+                <span>NICE</span>
+                <b>LILY</b>
+            </div>
+            <div class="hide-text">
+                LILY LIKES TO PLAY WITH CRAYONS AND PENCILS
+            </div>
+        </div>
+    </div>
+</body>
+</html>
