@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            flex-wrap: nowrap;
+        }
+
+            .noidung {
+                font-size: 50px;
+                margin: 50px;
+                display: block;
+            }
+            .display {
+                display: block;
+            }
+
+        @media screen and (min-width: 600px) {
+            .noidung {
+                font-size: 50px;
+                display: flexbox;
+                justify-content: space-between;
+                margin: 20px;
+                padding: 20px;
+            }
+            .display {
+                display: flex;
+            }
+            
+        }
+    </style>
+
+</head>
+<body>
+    <div style="font-size: 70px;">Media</div>
+    <div class="display">
+        <div class="noidung">Technology has transformed the way we live and work, offering countless benefits like instant communication, efficient tools, and access to global information.</div>
+        <div class="noidung">Education plays a vital role in personal and societal development, equipping individuals with skills, knowledge, and critical thinking necessary for progress and innovation.</div>
+        <div class="noidung">A healthy lifestyle requires regular exercise, balanced nutrition, and sufficient sleep, helping individuals maintain physical well-being and improve mental health significantly.</div>
+    </div>
+</body>
+</html>

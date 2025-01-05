@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1110px;
+}
+
+.header {
+    position: relative;
+    z-index: 100;
+    background-color: white;
+    padding: 20px 16px;
+}
+
+.nd1-header {
+    position: relative;
+    z-index: 102;
+    font-family: 'Nunito', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #e52f37;
+    margin-right: 16px;
+    padding: 5px 0px;
+}
+
+.nd2-header {
+    position: relative;
+    z-index: 102;
+    margin-left: auto;
+    align-self: center;
+}
+
+li {
+    display: inline;
+    font-size: 17px;
+    line-height: 28px;
+    font-family: 'Open Sans', sans-serif;
+    /* list-style-type: none; */
+}
+
+.padding-10-15 {
+    padding: 10px 15px;
+}
+
+.button-1 {
+    position: relative;
+    z-index: 102;
+    color: white;
+    border: 1px solid #e52f37;
+    background-color: #e52f37;
+    border-radius: 45px;
+    padding: 12px 18px;
+    margin: 0px 15px 0px 10px;
+}
+
+.button-1_2 {
+    position: absolute;
+    left: 82.5%;
+    top: 28px;
+    height: 26.4px;
+    z-index: 101;
+    font-size: 20px;
+    color: #e52f37;
+    border: 1px solid #e52f37;
+    border-radius: 5px;
+    padding: 1.5px 16.25px 6.5px 16.25px;
+    margin-right: 52px;
+    align-items: center;
+    opacity: 0;
+}
+
+@media only screen and (max-width: 1199.8px) {
+.container {
+    width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nd2-header {
+    margin-left: 0px;
+}
+
+.button-1 {
+    margin-right: auto;
+}
+}
+
+@media only screen and (max-width:991.8px) {
+.container {
+    height: 52px;
+    width: 690px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+.nd2-header {
+    opacity: 0;
+}
+
+.button-1_2 {
+    opacity: 1;
+}
+}
