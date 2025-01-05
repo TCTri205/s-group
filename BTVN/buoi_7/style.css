@@ -38,14 +38,21 @@ body {
     z-index: 102;
     margin-left: auto;
     align-self: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
 }
 
 li {
     display: inline;
     font-size: 17px;
     line-height: 28px;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     /* list-style-type: none; */
+    transition: all linear 0.5s;
+}
+
+li:hover {
+    color: #e52f37;
 }
 
 .padding-10-15 {
@@ -61,6 +68,12 @@ li {
     border-radius: 45px;
     padding: 12px 18px;
     margin: 0px 15px 0px 10px;
+    transition: all linear 0.3s;
+}
+
+.button-1:hover {
+    color: #e52f37;
+    background-color: white;
 }
 
 .button-1_2 {
