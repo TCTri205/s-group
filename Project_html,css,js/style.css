@@ -9,10 +9,28 @@ body {
 
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Nunito', sans-serif;
+    /* line-height: 1.2; */
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #071e55;
+    font-weight: 700;
+}
+
 .container {
+    position: relative;
+    z-index: 40;
     margin-left: auto;
     margin-right: auto;
     width: 1110px;
+}
+
+.hinhnen-1 {
+    height: 756.4px;
+    background-image: url('https://demo.epic-webdesign.com/tf-launchpage/v1/images/bg0.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .header {
@@ -27,7 +45,7 @@ body {
     z-index: 102;
     font-family: 'Nunito', sans-serif;
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 500;
     color: #e52f37;
     margin-right: 16px;
     padding: 5px 0px;
@@ -96,18 +114,56 @@ li:hover {
     position: relative;
     z-index: 50;
     width: 100%;
-    background-image: url('https://demo.epic-webdesign.com/tf-launchpage/v1/images/bg0.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
+    height: 664.4px;
 
 }
 
-/* .img-1 {
-    width: 100%;
-    z-index: 40;
-    background-color:  black;
-    opacity: 0.39;
-} */
+.align-center {
+    display: flex;
+    align-items: center;
+}
+
+.nd1-section-1 {
+    width: 540px;
+    height: 386.4px;
+    padding: 120px 15px 0px 0px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.OS-20-text {
+    margin-bottom: 35px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 50;
+    color: #fff;
+    text-shadow: 1px 1px #373737;
+    letter-spacing: 0.8px;
+}
+
+.play-button {
+    /* display: flex;
+    align-self: center;
+    justify-self: end; */
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 50% 50%;
+    display: inline-block;
+    transition: all 0.4s ease-in-out;
+}
+
+.play-button-in {
+    font-size: 26px;
+    line-height: 56px;
+    color: #e52a3d;
+    margin-left: 18px;
+    /* transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out; */
+}
 
 @media only screen and ((max-width: 1199.9px)) {
 .container {
