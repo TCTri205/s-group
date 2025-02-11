@@ -1,57 +1,915 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-</head>
-<body>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet" />
+  </head>
+  <body>
     <div class="hinhnen-1">
-        <div style="height: 100%; background-color: rgb(0, 0, 0, 0.39);">
-            <header class="header">
-                <div class="container" style="padding: 0px 15px; display: flex;">
-                    <div class="nd1-header">LauchPage</div>
-                    <div class="nd2-header">
-                        <li class="padding-10-15">Home</li>
-                        <li class="padding-10-15">About</li>
-                        <li class="padding-10-15">Testimonials</li>
-                        <li class="padding-10-15">Work</li>
-                        <li class="padding-10-15">Team</li>
-                        <li class="padding-10-15">Features</li>
-                        <li class="padding-10-15">Pricing</li>
-                        <span class="button-1">Get Started</span>
-                    </div>
-                    <div class="button-1_2"><i class="fas fa-bars"></i></div>
-                </div>
-            </header>
+      <div style="height: 100%; background-color: rgb(0, 0, 0, 0.39)">
+        <header class="header">
+          <div class="container">
+            <div class="nd-header">
+              <div class="nd1-header">LaunchPage</div>
+              <div class="nd2-header">
+                <li class="padding-10-15">Home</li>
+                <li class="padding-10-15">About</li>
+                <li class="padding-10-15">Testimonials</li>
+                <li class="padding-10-15">Work</li>
+                <li class="padding-10-15">Team</li>
+                <li class="padding-10-15">Features</li>
+                <li class="padding-10-15">Pricing</li>
+                <span class="button-1">Get Started</span>
+              </div>
+              <div class="button-1_2"><i class="fas fa-bars"></i></div>
+            </div>
+          </div>
+        </header>
 
-            <section class="section-1">
-                <div class="container" style="margin-top: 48px;">
-                    <div class="nd1-section-1" style="color: white;">
-                        <h1 style="color: white; font-size: 45px; line-height: 54px;">Award-Winning Agency Based In Manchested</h1>
-                        <p class="OS-20-text" style="margin-bottom: 35px;">
-                            Excepteur sint occaecat cupidatat nonet proident, vante nisn culpa qui officia deserunt etimus quis autem nets lorem entimus velis netsad.
-                        </p>
+        <section class="section-1">
+          <div class="container" style="margin-top: 38px">
+            <div class="nd1-section-1" style="color: white">
+              <h1 style="color: white; font-size: 45px; line-height: 54px">
+                Award-Winning Agency Based In Manchested
+              </h1>
+              <p class="OS-20-text" style="margin-bottom: 35px">
+                Excepteur sint occaecat cupidatat nonet proident, vante nisn
+                culpa qui officia deserunt etimus quis autem nets lorem entimus
+                velis netsad.
+              </p>
 
-                        <div>
-                            <div class="play-button">
-                                <i class="fas fa-play play-button-in"></i>
-                            </div>
+              <div class="section-1-play-button">
+                <div class="play-button-animation"></div>
 
-                        </div>
-                    
-                    </div>
-                    
-                    <div class="nd2-section-1">
+                <span class="play-button">
+                  <i class="fas fa-play play-button-in"></i>
+                </span>
 
-                    </div>
-                </div>
-            </section>
+                <span class="play-button-note"> Watch Presentation Video </span>
+              </div>
+            </div>
+
+            <div class="nd2-section-1">
+              <div class="nd2-section-1-form">
+                <h3
+                  style="
+                    margin-bottom: 5px;
+                    font-size: 22px;
+                    font-weight: 500;
+                    line-height: 1.2;
+                  "
+                >
+                  Get Your Free 14-Day Trial
+                </h3>
+
+                <p style="margin: 0px 0px 25px; font-size: 17px">
+                  Velis demo enim quia tempor magnet.
+                </p>
+
+                <input
+                  class="input-section-1 input-name-img"
+                  placeholder="Company Name*"
+                />
+
+                <input
+                  class="input-section-1 input-email-img"
+                  placeholder="Email Address*"
+                />
+
+                <select class="input-section-1 select-img" style="width: 365px">
+                  <option value="selected">We need LauchPage for...</option>
+                  <option value="">Our Support Team</option>
+                  <option value="">Our Sales Department</option>
+                </select>
+
+                <button type="submit" class="button-2">
+                  START MY FREE 14-DAY TRIAL
+                </button>
+
+                <p style="font-size: 14px; margin: 10px 0px 5px">
+                  No Credit Card • No Installation Required
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="section-2">
+      <div class="container">
+        <div class="nd-section-2">
+          <h5 class="title-section-2">As featured in:</h5>
+          <img src="images/award4a.png" class="partners" alt="image" />
+          <img src="images/award5.png" class="partners" alt="image" />
+          <img src="images/award3a.png" class="partners" alt="image" />
+          <img src="images/award1a.png" class="partners" alt="image" />
         </div>
-        
+      </div>
+    </div>
+    <div class="section-grey">
+      <div class="container">
+        <div style="text-align: center">
+          <h2 style="font-size: 38px; margin-bottom: 10px; line-height: 46px">
+            What We Do
+          </h2>
+          <p style="font-size: 18px; margin: 0px 0px 30px">
+            Dicover how our amazing team can help your business.
+          </p>
+        </div>
+        <div>
+          <div class="main-services">
+            <i class="far fa-chart-bar main-services-img blue"></i>
+            <h4 style="line-height: 25px">Google Analitycs</h4>
+            <p>
+              Curabitur quam etsum lacus net netsum nulat iaculis etsimun vitae
+              etsum nisle varius netsum.
+            </p>
+          </div>
+          <div class="main-services">
+            <i class="fa-regular fa-heart main-services-img red"></i>
+            <h4>Brand Awareness</h4>
+            <p>
+              Curabitur quam etsum lacus net netsum nulat iaculis etsimun vitae
+              etsum nisle varius netsum.
+            </p>
+          </div>
+          <div class="main-services">
+            <i class="fas fa-anchor main-services-img green"></i>
+            <h4>Graphic Design</h4>
+            <p>
+              Curabitur quam etsum lacus net netsum nulat iaculis etsimun vitae
+              etsum nisle varius netsum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-white">
+      <div class="container">
+        <div class="align-center">
+          <div
+            class="padding-0-15 slideInLeft"
+            data-wow-delay="0.25s"
+            style="
+              display: inline;
+              visibility: visible;
+              animation-delay: 0.25s;
+              animation-name: slideInLeft;
+            "
+          >
+            <div style="margin-right: 15px">
+              <img
+                src="images/about001.jpg"
+                class="image-shadow"
+                style="width: 525px"
+                alt="pic"
+              />
+            </div>
+          </div>
+          <div class="padding-0-15">
+            <h3 style="font-size: 32px; line-height: 38px">
+              Discover how we can help you to grow your business fast.
+            </h3>
+            <p style="color: rgb(124, 133, 149)">
+              Velis demo enim ipsam voluptatem quia voluptas sit aspernatur
+              netsum lorem fugit, seditum netis velas matrix net nesciunt.
+            </p>
+            <ul class="benefits">
+              <li>
+                <i class="fas fa-check"></i>
+                Quias netus magni netsum eos qui ratione sequi.
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Venis ratione sequi netus enim quia tempor magni.
+              </li>
+              <li>
+                <i class="fa-solid fa-check"></i>
+                Enim ipsam netus voluptatem quia voluptas.
+              </li>
+            </ul>
+            <div class="button-3">Discover More</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-grey">
+      <div class="container">
+        <div class="align-center">
+          <div class="padding-0-15">
+            <div style="display: inline">
+              <div class="flex-column">
+                <div class="flex-column-item active">
+                  <div class="nd-flex-column-item">
+                    <div class="dropcaps-circle blue">
+                      <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h4>Customize your workflow.</h4>
+                    <p>
+                      Manage any process and be ready to address any challenge
+                      with total ease.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flex-column-item">
+                  <div class="nd-flex-column-item">
+                    <div class="dropcaps-circle red">
+                      <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h4>Easy onboarding, fast adoption.</h4>
+                    <p>
+                      With Square getting your team on board is as simple as
+                      sending an email.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flex-column-item">
+                  <div class="nd-flex-column-item">
+                    <div class="dropcaps-circle green">
+                      <i class="fas fa-rocket"></i>
+                    </div>
+                    <h4>Improve subscriber retention.</h4>
+                    <p>
+                      Analyze customers by region, discounts and more and put a
+                      plan in place.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="padding-0-15" style="align-items: start">
+            <div style="margin-left: 20px; display: inline">
+              <img
+                src="images/about2.jpg"
+                class="image-shadow"
+                id="flex-column-item-img"
+                alt="pic"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-bg-1">
+      <div class="section-bg-overlay"></div>
+      <div class="container text-align-center">
+        <h2 style="color: white; font-size: 38px; margin-bottom: 40px">
+          Fun Facts About Our Agency
+        </h2>
+      </div>
+      <div class="container">
+        <div class="text-align-center">
+          <div class="fun-facts-box">
+            <i class="fa-regular fa-gem"></i>
+            <p class="fun-facts-title">
+              <span class="fun-facts-numbers">1050+</span> <br />Projects
+              Completed
+            </p>
+          </div>
+          <div class="fun-facts-box">
+            <i class="far fa-heart"></i>
+            <p class="fun-facts-title">
+              <span class="fun-facts-numbers">217k</span> <br />Happy Clients
+            </p>
+          </div>
+          <div class="fun-facts-box">
+            <i class="fas fa-award"></i>
+            <p class="fun-facts-title">
+              <span class="fun-facts-numbers">1210</span> <br />Design Awards
+            </p>
+          </div>
+          <div class="fun-facts-box">
+            <i class="fas fa-anchor"></i>
+            <p class="fun-facts-title">
+              <span class="fun-facts-numbers">2137</span> <br />Line Of Codes
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-grey">
+      <div class="container">
+        <div
+          class="align-center"
+          style="justify-content: space-between; gap: 95px"
+        >
+          <div class="testim padding-0-15">
+            <h2 style="font-size: 38px">What People Are Saying.</h2>
+            <p style="margin: 0px 0px 20px">
+              Quis autem velis ets reprehender net etid quiste nets voluptate.
+              Utise wisi enim minim veniam, quis etsad aspernatis netsum
+              stationes nets.
+            </p>
+            <div class="align-center">
+              <div style="padding-right: 15px">
+                <div class="testim-platform first">
+                  <p>TrustPilot</p>
+                  <div class="testim-rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fas fa-star-half-alt" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="testim-platform padding-0-15">
+                <p>Feefo</p>
+                <div class="testim-rating">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="far fa-star" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="padding-0-15">
+            <div class="card">
+              <p class="card-body active">
+                Nemo enim ipsam voluptatem quia voluptas situm ets aspernatis
+                netsum loris fugit, sed quia magni dolores eos quis ratione
+                sequi etum nets vesciunt neque.
+              </p>
+              <div class="card-header">
+                <div style="width: 484.4px; font: 16px Nunito, sans-serif">
+                  <div class="button-4">
+                    <img
+                      src="images/testimonials3.jpg"
+                      alt="testimonials"
+                      class="testim-img"
+                    />
+                    <p class="testim-name">
+                      Alexandra Smith / <span>Manager - SmartCoders</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <p class="card-body">
+                Nemo enim ipsam voluptatem quia voluptas situm ets aspernatis
+                netsum loris fugit, sed quia magni dolores eos quis ratione
+                sequi etum nets vesciunt neque.
+              </p>
+              <div class="card-header">
+                <div style="width: 484.4px; font: 16px Nunito, sans-serif">
+                  <div class="button-4">
+                    <img
+                      src="images/testimonials2.jpg"
+                      alt="testimonials"
+                      class="testim-img"
+                    />
+                    <p class="testim-name">
+                      Alexandra Smith / <span>Manager - SmartCoders</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <p class="card-body">
+                Nemo enim ipsam voluptatem quia voluptas situm ets aspernatis
+                netsum loris fugit, sed quia magni dolores eos quis ratione
+                sequi etum nets vesciunt neque.
+              </p>
+              <div class="card-header">
+                <div style="width: 484.4px; font: 16px Nunito, sans-serif">
+                  <div class="button-4">
+                    <img
+                      src="images/testimonials1.jpg"
+                      alt="testimonials"
+                      class="testim-img"
+                    />
+                    <p class="testim-name">
+                      Alexandra Smith / <span>Manager - SmartCoders</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-white">
+      <div class="container">
+        <div class="padding-0-15 text-align-center" style="margin-bottom: 30px">
+          <h2 class="section-title">Our Portfolio</h2>
+          <p class="section-subtitle">
+            Dicover the latest projects accomplished for my clients.
+          </p>
+        </div>
+        <div class="align-center">
+          <div class="width-1/3">
+            <figure class="gallery-insta">
+              <div class="popup-gallery">
+                <a class="popup2" href="images/gallery1.jpg">
+                  <img src="images/gallery1.jpg" class="width-100" alt="pic" />
+                  <span class="eye-wrapper fadeIn"
+                    ><i
+                      class="fa fa-search-plus eye-icon centered"
+                      style="font-size: 38px"
+                    ></i
+                  ></span>
+                </a>
+              </div>
+            </figure>
+            <figure class="gallery-insta">
+              <div class="popup-gallery">
+                <a class="popup2" href="images/gallery2.jpg">
+                  <img src="images/gallery2.jpg" class="width-100" alt="pic" />
+                  <span class="eye-wrapper fadeIn"
+                    ><i
+                      class="fa fa-search-plus eye-icon centered"
+                      style="font-size: 38px"
+                    ></i
+                  ></span>
+                </a>
+              </div>
+            </figure>
+          </div>
+          <div class="width-1/3">
+            <figure class="gallery-insta">
+              <div class="popup-gallery">
+                <a class="popup2" href="images/gallery3.jpg">
+                  <img src="images/gallery3.jpg" class="width-100" alt="pic" />
+                  <span class="eye-wrapper fadeIn"
+                    ><i
+                      class="fa fa-search-plus eye-icon centered"
+                      style="font-size: 38px"
+                    ></i
+                  ></span>
+                </a>
+              </div>
+            </figure>
+          </div>
+          <div class="width-1/3">
+            <figure class="gallery-insta">
+              <div class="popup-gallery">
+                <a class="popup2" href="images/gallery4.jpg">
+                  <img src="images/gallery4.jpg" class="width-100" alt="pic" />
+                  <span class="eye-wrapper fadeIn"
+                    ><i
+                      class="fa fa-search-plus eye-icon centered"
+                      style="font-size: 38px"
+                    ></i
+                  ></span>
+                </a>
+              </div>
+            </figure>
+            <figure class="gallery-insta">
+              <div class="popup-gallery">
+                <a class="popup2" href="images/gallery5.jpg">
+                  <img src="images/gallery5.jpg" class="width-100" alt="pic" />
+                  <span class="eye-wrapper fadeIn"
+                    ><i
+                      class="fa fa-search-plus eye-icon centered"
+                      style="font-size: 38px"
+                    ></i
+                  ></span>
+                </a>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-grey">
+      <div class="container">
+        <div class="padding-0-15 text-align-center" style="margin-bottom: 30px">
+          <h2 class="section-title">Meet Our Team</h2>
+          <p class="section-subtitle">
+            Discover more about our high performing team.
+          </p>
+        </div>
+        <div class="align-center">
+          <div class="width-1/3 padding-0-15" style="margin-top: 30px">
+            <img
+              src="images/team001.jpg"
+              class="team-img width-100"
+              alt="pic"
+            />
+            <div class="team-item">
+              <h3>CHRISTINA HAWKINS</h3>
+              <div class="team-info"><p>Head of SEO</p></div>
+              <p>
+                Johnathan is our co-founder and has developed search strategies
+                for a variety of clients for over 5 years.
+              </p>
+            </div>
+          </div>
+          <div class="width-1/3 padding-0-15" style="margin-top: 30px">
+            <img
+              src="images/team002.jpg"
+              class="team-img width-100"
+              alt="pic"
+            />
+            <div class="team-item">
+              <h3>ANDRES JOHANSON</h3>
+
+              <div class="team-info geen"><p>Marketing Manager</p></div>
+
+              <p>
+                Andres fell in love with marketing at the school and looks
+                forward to being part of the industry for years.
+              </p>
+            </div>
+          </div>
+          <div class="width-1/3 padding-0-15" style="margin-top: 30px">
+            <img
+              src="images/team003.jpg"
+              class="team-img width-100"
+              alt="pic"
+            />
+            <div class="team-item">
+              <h3>ALEXANDRA SMITHS</h3>
+
+              <div class="team-info"><p>SEO Specialist</p></div>
+
+              <p>
+                Graduating with a degree in Spanish, English and French, she has
+                always loved writing.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-bg-2">
+      <div class="section-bg-overlay"></div>
+      <div class="container text-align-center">
+        <div class="col-md-7 mx-auto text-center">
+          <h2 style="color: white; font-size: 38px; margin-bottom: 20px">
+            Award-Winning Agency
+          </h2>
+          <p style="color: white">
+            Utise wisi enim minim veniam, quis et stationes ullamcorper nets
+            suscipit ets lobotis nisle consequat nihis etim aspernatur netsum.
+          </p>
+          <div class="button-5">Discover More</div>
+          <div class="button-6">Get In Touch</div>
+        </div>
+      </div>
     </div>
 
-</body>
+    <div class="section-white">
+      <div class="container text-align-center">
+        <h2 class="section-title">Amazing Features</h2>
+        <p class="section-subtitle">
+          Quis autem velis ets reprehender net etid quiste voluptate.
+        </p>
+      </div>
+      <div class="container">
+        <div class="align-center">
+          <div class="width-1/3">
+            <div class="padding-0-15">
+              <div class="feature-box">
+                <i
+                  class="fa-solid fa-screwdriver-wrench"
+                  style="color: #87ac34"
+                ></i>
+                <div class="feature-box-text">
+                  <h4>Support 24/7</h4>
+                  <p>
+                    Utise wisi enim minim veniam, quis tation ullamcorper
+                    suscipit et loboti nisl consequat nihis.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="width-1/3">
+            <div class="padding-0-15">
+              <div class="feature-box">
+                <i class="fa-solid fa-users" style="color: #50a0d2"></i>
+
+                <div class="feature-box-text">
+                  <h4>User Friendly</h4>
+
+                  <p>
+                    Utise wisi enim minim veniam, quis tation ullamcorper
+                    suscipit et loboti nisl consequat nihis.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="width-1/3">
+            <div class="padding-0-15">
+              <div class="feature-box">
+                <i class="fa-regular fa-bell" style="color: #fe9c24"></i>
+
+                <div class="feature-box-text">
+                  <h4>Notifications</h4>
+
+                  <p>
+                    Utise wisi enim minim veniam, quis tation ullamcorper
+                    suscipit et loboti nisl consequat nihis.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="align-center">
+          <div class="width-1/3 padding-0-15">
+            <div class="feature-box">
+              <i class="fas fa-gift" style="color: #3473b8"></i>
+
+              <div class="feature-box-text">
+                <h4>Accesibility</h4>
+
+                <p>
+                  Utise wisi enim minim veniam, quis tation ullamcorper suscipit
+                  et loboti nisl consequat nihis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="width-1/3 padding-0-15">
+            <div class="feature-box">
+              <i class="fas fa-piggy-bank" style="color: #fc6a3f"></i>
+
+              <div class="feature-box-text">
+                <h4>Cost Control</h4>
+
+                <p>
+                  Utise wisi enim minim veniam, quis tation ullamcorper suscipit
+                  et loboti nisl consequat nihis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="width-1/3 padding-0-15">
+            <div class="feature-box">
+              <i class="far fa-comments" style="color: #87ac34"></i>
+
+              <div class="feature-box-text">
+                <h4>Chat With Friends</h4>
+
+                <p>
+                  Utise wisi enim minim veniam, quis tation ullamcorper suscipit
+                  et loboti nisl consequat nihis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-grey">
+      <div class="container">
+        <div class="align-center">
+          <div class="width-1/3">
+            <div class="padding-0-15">
+              <h3 style="font-size: 32px">
+                Great pricing plans tailored to your needs.
+              </h3>
+              <p>
+                Quis autem velis ets reprehender net etid quiste voluptate.
+                Utise wisi enim minim veniam, quis et stationes nets.
+              </p>
+            </div>
+          </div>
+          <div class="width-1/3">
+            <div class="padding-0-15">
+              <div class="price-box-white">
+                <div class="pricing-list">
+                  <div class="price-title">MONTHLY</div>
+                  <div class="price-value">$19</div>
+                  <div class="price-subtitle">Per Month</div>
+                  <div class="price-tag"><div>GET STARTED</div></div>
+                  <div class="price-text">First two weeks free.</div>
+                  <div class="price-text">Amazing freatures.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="width-1/3">
+            <div class="padding-0-15">
+              <div class="price-box-grey">
+                <div class="pricing-list">
+                  <div class="price-title">ANNUALY</div>
+                  <div class="price-value">$29</div>
+                  <div class="price-subtitle">Per Year</div>
+                  <div class="price-tag">GET STARTED</div>
+                  <div class="price-text">First two weeks free.</div>
+                  <div class="price-text">Save 45% with this plan</div>
+                  <div class="price-text">Amazing freatures.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-white">
+      <div class="container">
+        <div class="padding-0-15" style="padding-bottom: 10px">
+          <div class="text-align-center">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <p class="section-subtitle">
+              Quis autem velis ets reprehender net etid quiste voluptate.
+            </p>
+          </div>
+        </div>
+        <div class="align-center">
+          <div class="width-1/2">
+            <div class="padding-0-15">
+              <div class="faq-box">
+                <h5>Velit ut tortizi pretium viverra suspendisse?</h5>
+                <p>
+                  Utise wisi enim minim veniam, quis et stationes ullamcorper
+                  nets suscipit ets lobotis nisle consequat nihis etim. Quis
+                  autem velis ets reprehender net etid quiste voluptate velite
+                  esse sedis.
+                </p>
+              </div>
+              <div class="faq-box">
+                <h5>Maecenas volutpat blandit etiam?</h5>
+                <p>
+                  Utise wisi enim minim veniam, quis et stationes ullamcorper
+                  nets suscipit ets lobotis nisle consequat nihis etim. Quis
+                  autem velis ets reprehender net etid quiste voluptate velite
+                  esse sedis.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="width-1/2">
+            <div class="padding-0-15">
+              <div class="faq-box">
+                <h5>Nibh sit amet aliquam commodo?</h5>
+
+                <p>
+                  Utise wisi enim minim veniam, quis et stationes ullamcorper
+                  nets suscipit ets lobotis nisle consequat nihis etim. Quis
+                  autem velis ets reprehender net etid quiste voluptate velite
+                  esse sedis.
+                </p>
+              </div>
+              <div class="faq-box">
+                <h5>Elementum curabitur vitae?</h5>
+
+                <p>
+                  Utise wisi enim minim veniam, quis et stationes ullamcorper
+                  nets suscipit ets lobotis nisle consequat nihis etim. Quis
+                  autem velis ets reprehender net etid quiste voluptate velite
+                  esse sedis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-bg-2">
+      <div class="section-bg-overlay"></div>
+      <div class="container">
+        <div class="text-align-center">
+          <div class="padding-0-15" style="padding-bottom: 10px">
+            <h2 class="section-title" style="color: white">Contact Us</h2>
+            <p class="section-subtitle" style="color: white">
+              Have any queries? Get in touch today.
+            </p>
+          </div>
+        </div>
+        <div class="align-center justify-center">
+          <div class="">
+            <div class="contact-form">
+              <p class="contact_success_box" style="display: none">
+                We received your message and you will hear from us soon. Thank
+                You!
+              </p>
+              <form class="contact-form-wrapper">
+                <div class="width-1/2" style="display: inline-block">
+                  <input
+                    class="contact-input"
+                    required=""
+                    name="contact_names"
+                    placeholder="Your Name*"
+                    type="text"
+                  />
+
+                  <input
+                    class="contact-input"
+                    required=""
+                    name="contact_phone"
+                    placeholder="Phone Number*"
+                    type="text"
+                  />
+                </div>
+                <div class="width-1/2" style="display: inline-block">
+                  <input
+                    class="contact-input"
+                    required=""
+                    name="contact_email"
+                    placeholder="Email Adress*"
+                    type="email"
+                  />
+
+                  <select
+                    class="contact-input"
+                    required=""
+                    name="contact_ticket"
+                  >
+                    <option value="">Choose Option</option>
+
+                    <option value="Individual">Individual</option>
+
+                    <option value="Corporate">Corporate</option>
+                  </select>
+                </div>
+              </form>
+              <div class="padding-0-15">
+                <textarea
+                  class="contact-input"
+                  rows="2"
+                  cols="20"
+                  name="contact_message"
+                  placeholder="Your Message..."
+                ></textarea>
+                <input
+                  value="Get In Touch"
+                  class="contact-submit"
+                  type="submit"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div  style="display: flex; justify-content: space-between">
+          <div class="padding-0-15">
+            <p>
+              © 2020 <span class="template-name">LaunchPage</span>. Designed by
+              <a
+                href="https://themeforest.net/user/epic-themes/portfolio?ref=Epic-Themes"
+                target="_blank"
+                >Epic-Themes</a
+              >
+            </p>
+          </div>
+          <div class="padding-0-15">
+            <ul class="footer_social text-align-center">
+              <li>Follw us:</li>
+              <li>
+                <a href="#"><i class="fab fa-twitter" style="color: #4099ff;"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-pinterest" style="color: #C92228;"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-facebook-square" style="color: #3b5998;"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram" style="color: #8a3ab9;"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-skype" style="color: #1e90ff;"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-dribble"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="style.js"></script>
+  </body>
 </html>
