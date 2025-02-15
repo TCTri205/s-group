@@ -2,10 +2,10 @@ const pokemonContainer = document.getElementById("pokemonContainer");
 const loadMoreButton = document.getElementById("load-more");
 const searchBar = document.getElementById("search-bar");
 
-let currentStart = 1; 
-const batchSize = 60;
-let maxPokemon = 1000; 
-const threshold = 240;
+let currentStart = 1;
+let batchSize = 36;
+let maxPokemon = 898; 
+const threshold = 577;
 let allPokemon = [];
 
 
@@ -86,15 +86,16 @@ loadMoreButton.addEventListener("click", async () => {
     if (currentStart <= threshold) {
         await loadPokemon(currentStart, batchSize);
         currentStart += batchSize;
+        batchSize *= 2;
 
         if (currentStart > threshold && currentStart <= maxPokemon) {
             await loadPokemon(currentStart, maxPokemon - currentStart + 1);
             currentStart = maxPokemon + 1; 
         }
     }
-    if (currentStart > maxPokemon) {
-        loadMoreButton.style.display = "none";
-    }
+    // if (currentStart > maxPokemon) {
+    //     loadMoreButton.style.display = "none";
+    // }
 });
 
 loadPokemon(currentStart, batchSize);
