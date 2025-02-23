@@ -48,6 +48,30 @@ function handleClick(){
 </style> -->
 
 
+<!-- ============================================================================================================== -->
+
+<!-- 
+
+{{ }}
+ref()
+computed
+component
+v-bind
+v-on / @ 
+v-if, v-else, v-for
+style binding
+v-model
+
+onMounted(() => {
+  các logic muốn tải ngay khi vào trang
+})
+
+-->
+
+<!-- ============================================================================================================== -->
+
+
+<!-- 
 <script setup>
 import { reactive, ref, computed } from "vue";
 import Title from "./components/Title.vue";
@@ -146,4 +170,92 @@ p {
   font-size: 18px;
   margin-bottom: 20px;
 }
+</style> -->
+
+
+<!-- <script setup>
+import {computed, ref } from 'vue';
+
+const isActive = ref(false)
+const tk = ref("")
+const mk = ref("")
+
+function buttonActive() {
+  if (tk.value === "" && mk.value === ""){
+    isActive.value = !isActive.value
+  }
+}
+
+// const update = computed(() => {
+//   return isActive.value
+// })
+
+const nav = ["Trang chủ", "Chương trình", "Kế hoạch", "Danh sách", "Cựu sinh viên", "Phòng học & Hệ thống", "Liên học", "Hỗ trợ", "Đăng nhập"]
+
+</script>
+
+
+<template>
+  <div >
+    <nav>
+      <div v-for="(item,index) in nav" :key="index">
+        <span>>{{ item }}</span>
+      </div>
+    </nav>
+    <div>
+      <span>Tài khoản:</span>
+      <span>
+        <input v-model="tk" type="text">
+      </span>
+    </div>
+    <div>
+      <span>Mật khẩu:</span>
+      <span>
+        <input v-model="mk" type="text">
+      </span>
+    </div>
+    <div :class="{'active': isActive, 'op-0' : true}">
+      Nhập lại tài khoản và mật khẩu!
+    </div>
+    <div>
+      {{ tk }} - {{ mk }}
+    </div>
+    <div>
+      <button @click="buttonActive">
+        Đăng nhập
+      </button>
+    </div>
+  </div>
+
+</template>
+
+
+<style scoped>
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.container d {
+  text-align: center;
+}
+
+.op-0 {
+  opacity: 0;
+}
+
+.op-0.active {
+  opacity: 1;
+}
+
+
+p {
+  display: flex;
+  align-content: center;
+  background-color: rgb(118, 118, 221);
+}
+
 </style>
+ -->
